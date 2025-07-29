@@ -1,11 +1,5 @@
-import { Button } from "@/components/ui/button";
-
-const HomePage = () => {
-  return (
-    <div>
-      <Button>Click Me</Button>
-    </div>
-  );
+const HomePage = async () => {
+  return <div>Hello World</div>;
 };
 
 export default HomePage;
